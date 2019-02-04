@@ -3,7 +3,7 @@
 ### `js`
 
 # Introduction to Javascript
-# Data Types
+# Data structure and alogorithm
 # Object 
 # ES6
 # Node.js
