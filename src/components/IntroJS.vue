@@ -1,0 +1,94 @@
+<template>
+  <div class="hello">
+    <div>
+      <h1>Intro</h1>
+      <p>
+        JavaScript is a real language. Building a modern dynamic website without knowing it is nonsense. A lot of
+        people working on web applications and web sites learnt the language on the job. Code written is often hard
+        to understand and hard to maintain. It doesn't follow best practices or standard rules which provoke
+        strange behaviours and bugs. Taking time to understand the fundamentals is really important! By doing so
+        you can stop being a normal human and become a true web developer.
+      </p>
+    </div>
+
+    <div>
+      <h1>History</h1>
+      <p>
+        JavaScript was introduced by Brendan Eich in 1995 for Netscape Communications. It was submitted few months
+        later to Ecma International for consideration as an industry standard. The result standard version is
+        ECMAScript.
+        Even if the name comes from a partnership between Netscape and Sun Microsystems (distributor of Java)
+        JavaScript is not a "light" version of Java.
+      </p>
+    </div>
+
+    <div>
+      <h1>Definition & properties</h1>
+      <p>
+        JavaScript is a scripting language that supports multiple programming styles. It differs from other
+        languages such as C++, Java or PHP with its dynamic behaviour, its first-class functions and its
+        prototype-based inheritance.
+        JavaScript lovers consider these features as the force of the language. It's very common for people who try
+        to write JavaScript like they write code in other languages to hate it. Don't make this mistake!
+      </p>
+    </div>
+
+    <div>
+      <h1>Usages</h1>
+
+      <p>
+        Even if it was originally designed to work in a browser environment, JavaScript is now used on several
+        different platforms. Here are a few examples :
+      </p>
+
+      <ul>
+        <li>Web server</li>
+        <li>Browser addons/extensions</li>
+        <li>Mobile applications</li>
+        <li>Databases consoles</li>
+        <li>OpenOffice scripts/macros</li>
+        <li>Java applications</li>
+      </ul>
+    </div>
+
+    <div>
+      <h1>Basic Syntax</h1>
+      <p>
+        JavaScript is case-sensitive. Lines end by semicolon ;. Block are delimited curly brackets by { }. Comments
+        are between /* */ for multiple lines or after // for one line.
+      </p>
+    </div>
+
+    <p>
+      Next
+      <a href>Data Types &rarrlp;</a>
+    </p>
+
+    <div id="footer">
+      <p>
+        &copy;
+        <a href="m.me/ebnsina">Ebn Sina</a> - 2019
+      </p>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "IntroJS",
+  props: {
+    msg: String
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h3 {
+  margin: 40px 0 0;
+}
+
+a {
+  color: #42b983;
+}
+</style>
