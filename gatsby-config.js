@@ -6,7 +6,6 @@ const cssnano = require("cssnano");
 const postCSSMixins = require("postcss-mixins");
 
 module.exports = {
-  pathPrefix: "http://ebnsina.github.io/",
   siteMetadata: {
     title: `Ebn Sina - JavaScript Evangelist`,
     description: `JavaScript Evangelist`,
