@@ -1,5 +1,5 @@
 # Hello JavaScript World!
 
-[ebnsina](ebnsina.js.org)
+permalink: /index.html
 
 This website build with gatsbyjs, graphql and such amazing reactjs technology.
