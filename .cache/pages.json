@@ -1,0 +1,47 @@
+[
+    {
+        "componentChunkName": "component---src-templates-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "about-771",
+        "path": "/about"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "contact-906",
+        "path": "/contact"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "introduction-to-javascript-541",
+        "path": "/introduction-to-javascript"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "jsonName": "tag-js-f98",
+        "path": "/tag/js"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "jsonName": "tag-programming-92f",
+        "path": "/tag/programming"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "why-language-matter-d2a",
+        "path": "/why-language-matter"
+    }
+]
