@@ -1,12 +1,12 @@
 {
   "name": "ebnsina",
   "description": "JavaScript Evangelist",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "author": "Ebn Sina <ebnsina.me@gmail.com>",
   "keywords": [
-    "gatsby",
-    "minimal",
-    "starter",
+    "ebnsina.js.org",
+    "javascript",
+    "ebnsina",
     "blog",
     "theme",
     "dark",
@@ -15,6 +15,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
@@ -54,6 +55,7 @@
     "eslint-plugin-react": "^7.12.3",
     "eslint-plugin-react-hooks": "^1.4.0",
     "gatsby-remark-embed-video": "^1.7.0",
+    "gh-pages": "^2.0.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-mixins": "^6.2.1",
@@ -62,12 +64,5 @@
     "postcss-url": "^8.0.0",
     "prettier": "^1.15.2",
     "rambdax": "^1.8.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/panr/gatsby-starter-hello-friend"
-  },
-  "bugs": {
-    "url": "https://github.com/panr/gatsby-starter-hello-friend/issues"
   }
 }
