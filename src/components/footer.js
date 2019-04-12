@@ -6,19 +6,19 @@ const Footer = ({ copyrights }) => (
     {copyrights ? (
       <div
         dangerouslySetInnerHTML={{
-          __html: copyrights,
+          __html: copyrights
         }}
       />
     ) : (
       <>
-        <span className="footerCopyrights">© Ebn Sina - 2019</span>
+        <span className="footerCopyrights">© ইবনে সিনা - ২০১৯</span>
       </>
     )}
   </footer>
 );
 
 Footer.propTypes = {
-  copyrights: PropTypes.string,
+  copyrights: PropTypes.string
 };
 
 export default Footer;

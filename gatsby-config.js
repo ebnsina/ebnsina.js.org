@@ -7,27 +7,27 @@ const postCSSMixins = require("postcss-mixins");
 
 module.exports = {
   siteMetadata: {
-    title: `Ebn Sina - JavaScript Evangelist`,
-    description: `JavaScript Evangelist`,
+    title: `ইবনে সিনা - জাভাস্ক্রিপ্ট ডেভেলপার এবং ইন্সট্রাক্টর`,
+    description: `জাভাস্ক্রিপ্ট ডেভেলপার এবং ইন্সট্রাক্টর`,
     copyrights: "",
-    author: `ebnsina`,
+    author: `ইবনে সিনা`,
     logo: {
       src: "",
       alt: ""
     },
-    logoText: "Ebn Sina",
+    logoText: "ইবনে সিনা",
     defaultTheme: "dark",
     postsPerPage: 5,
     showMenuItems: 2,
-    menuMoreText: "Read more",
+    menuMoreText: "বিস্তারিত",
     mainMenu: [
       {
-        title: "About",
-        path: "/about"
+        title: "আমার সম্পর্কে",
+        path: "/আমার-সম্পর্কে"
       },
       {
-        title: "Contact",
-        path: "/contact"
+        title: "যোগাযোগ",
+        path: "/যোগাযোগ"
       }
     ]
   },
