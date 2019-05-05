@@ -1,0 +1,2857 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d0fe5987173a68fbcc317d59d35f275f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "96e7885292bd1709ccda0893d109d5cf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "72e7c3d14fc29c488c56bbb2f428e8eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c50a3f28cfe0aafe514284eab7d5affe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e1f30b91f5152a17936217b154f929db",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "61517ec6-ba8e-5ee0-8e79-87c7d58e1112": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/babel-preset-gatsby",
+      "id": "61517ec6-ba8e-5ee0-8e79-87c7d58e1112",
+      "name": "babel-preset-gatsby",
+      "version": "0.1.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/babel-preset-gatsby",
+      "packageJson": {
+        "name": "babel-preset-gatsby",
+        "description": "Gatsby uses the phenomenal project [Babel](https://babeljs.io/) to enable support for writing modern JavaScript — while still supporting older browsers. This package contains the default Babel setup for all Gatsby projects.",
+        "version": "0.1.11",
+        "main": "index.js",
+        "author": {
+          "name": "Philipp Spiess",
+          "email": "hello@philippspiess.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/plugin-proposal-class-properties",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-dynamic-import",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.4.1"
+          },
+          {
+            "name": "@babel/preset-react",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-macros",
+            "version": "^2.4.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a3dc596c152e5ba775e9078aed832472",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c1c426c4fabe1583af2e540c0f94b6d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ad46868f-11f2-58ff-be49-ca9c2c0503bf": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-source-filesystem",
+      "id": "ad46868f-11f2-58ff-be49-ca9c2c0503bf",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "aee0e70ce1d53e87367090a49d38e04c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5cfce6a-b718-58eb-b5b2-9f0fac023728": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-source-filesystem",
+      "id": "a5cfce6a-b718-58eb-b5b2-9f0fac023728",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/posts"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "53ff2fcc1ff8c6d874c0cbf5995eec4e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0b8b6df2-7a02-5021-9d19-1fdc5be7b436": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-source-filesystem",
+      "id": "0b8b6df2-7a02-5021-9d19-1fdc5be7b436",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5ef8ce897252340038cea95df030d90a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cee838e5-5039-5841-bcb7-eea4dd3b3ca6": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-postcss",
+      "id": "cee838e5-5039-5841-bcb7-eea4dd3b3ca6",
+      "name": "gatsby-plugin-postcss",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "postCssPlugins": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-postcss",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss",
+        "description": "Gatsby plugin to handle PostCSS",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss"
+        ],
+        "author": {
+          "name": "Marat Dreizin",
+          "email": "marat.dreizin@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^3.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c5c2fe9bddafce2c7f49939353eb69d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "df45319d53effc7ba75b3f54c7e5b7e7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0657751e650633943a73691800f3e14d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0254a61b-e973-5bbe-88b2-7ffad662df46": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-transformer-remark",
+      "id": "0254a61b-e973-5bbe-88b2-7ffad662df46",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-embed-video",
+            "id": "c29288cd-4665-5d32-a9f8-a48e32be2147",
+            "name": "gatsby-remark-embed-video",
+            "version": "1.7.1",
+            "pluginOptions": {
+              "plugins": [],
+              "related": false,
+              "noIframeBorder": true
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-embed-video"
+          },
+          {
+            "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-images",
+            "id": "d5c410e9-e500-58b3-8156-4b593a8b499c",
+            "name": "gatsby-remark-images",
+            "version": "3.0.10",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 800,
+              "quality": 100,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false,
+              "tracedSVG": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-prismjs",
+            "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.7",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": null,
+              "aliases": {},
+              "showLineNumbers": false,
+              "noInlineHighlight": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "01cd9049ad478141c703304536f7b4d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c29288cd-4665-5d32-a9f8-a48e32be2147": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-embed-video",
+      "id": "c29288cd-4665-5d32-a9f8-a48e32be2147",
+      "name": "gatsby-remark-embed-video",
+      "version": "1.7.1",
+      "pluginOptions": {
+        "plugins": [],
+        "related": false,
+        "noIframeBorder": true
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-embed-video",
+      "packageJson": {
+        "name": "gatsby-remark-embed-video",
+        "description": "Embed Videos (Youtube, Vimeo, VideoPress) in Gatsby via Markdown",
+        "version": "1.7.1",
+        "main": "dist/index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Neal Bürger",
+          "email": "info@nealbuerger.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@types/node",
+            "version": "^11.11.3"
+          },
+          {
+            "name": "get-video-id",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "cz-conventional-changelog",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "typescript",
+            "version": "^3.3.3333"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4bbaf542ba224ea623c1f9c996a7ee1a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d5c410e9-e500-58b3-8156-4b593a8b499c": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-images",
+      "id": "d5c410e9-e500-58b3-8156-4b593a8b499c",
+      "name": "gatsby-remark-images",
+      "version": "3.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 800,
+        "quality": 100,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false,
+        "tracedSVG": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "query-string",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2ad0bdce1efa8b890bbd640cbc8c7947",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d13151dc-fd64-50b0-b768-6beaa40f02ac": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-prismjs",
+      "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.7",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": null,
+        "aliases": {},
+        "showLineNumbers": false,
+        "noInlineHighlight": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0ac7865c9f01a659255fa8ba9b5019ad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "602ff6ab-4b29-5352-b6ba-9fff7d3d047c": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-manifest",
+      "id": "602ff6ab-4b29-5352-b6ba-9fff7d3d047c",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "ebnsina.js.org",
+        "short_name": "ebnsina",
+        "start_url": "/",
+        "background_color": "#292a2d",
+        "theme_color": "#292a2d",
+        "display": "minimal-ui",
+        "icon": "src/images/favicon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c869b3c689b79478dc0ddeebb082decd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "5152c8073dac4fff552647b065361406",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me",
+      "packageJson": {
+        "name": "ebnsina",
+        "description": "JavaScript Evangelist",
+        "version": "0.1.0",
+        "keywords": [
+          "ebnsina.js.org",
+          "javascript",
+          "ebnsina",
+          "blog",
+          "theme",
+          "dark",
+          "light",
+          "personal site"
+        ],
+        "author": "Ebn Sina <ebnsina.me@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-awesome-pagination",
+            "version": "^0.3.3"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-postcss",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.19"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-optional-chaining",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
+            "name": "babel-preset-gatsby",
+            "version": "^0.1.6"
+          },
+          {
+            "name": "cssnano",
+            "version": "^4.1.8"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.12.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^3.3.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.2"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.12.3"
+          },
+          {
+            "name": "eslint-plugin-react-hooks",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "gatsby-remark-embed-video",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "postcss-import",
+            "version": "^12.0.1"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "postcss-mixins",
+            "version": "^6.2.1"
+          },
+          {
+            "name": "postcss-nested",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "postcss-preset-env",
+            "version": "^6.5.0"
+          },
+          {
+            "name": "postcss-url",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          },
+          {
+            "name": "rambdax",
+            "version": "^1.8.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1ebe2e06b43dda003ccca930802f94aa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d3777a5c-38c8-5a0c-8337-0f34bd723684": {
+      "resolve": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-page-creator",
+      "id": "d3777a5c-38c8-5a0c-8337-0f34bd723684",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1f7b901e219a68ebab4bef594ba664f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "ইবনে সিনা - জাভাস্ক্রিপ্ট ডেভেলপার এবং ইন্সট্রাক্টর",
+        "description": "জাভাস্ক্রিপ্ট ডেভেলপার এবং ইন্সট্রাক্টর",
+        "copyrights": "",
+        "author": "ইবনে সিনা",
+        "logo": {
+          "src": "",
+          "alt": ""
+        },
+        "logoText": "ইবনে সিনা",
+        "defaultTheme": "dark",
+        "postsPerPage": 5,
+        "showMenuItems": 2,
+        "menuMoreText": "বিস্তারিত",
+        "mainMenu": [
+          {
+            "title": "আমার সম্পর্কে",
+            "path": "/আমার-সম্পর্কে"
+          },
+          {
+            "title": "যোগাযোগ",
+            "path": "/যোগাযোগ"
+          }
+        ]
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-05-05T10:32:52.638Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "73655f557a10329d66a4431c5bf16c1d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "336a2911-c99e-5f75-98a2-693ea68fdbbc": {
+      "id": "336a2911-c99e-5f75-98a2-693ea68fdbbc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9a1a69f07957c56f6bfb92af1436bd3e",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2019-04-12T04:45:38.650Z",
+      "accessTime": "2019-05-05T10:32:57.314Z",
+      "changeTime": "2019-04-12T04:45:38.650Z",
+      "birthTime": "2019-04-12T04:45:38.649Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404787,
+      "blocks": 0,
+      "atimeMs": 1557052377314.4526,
+      "mtimeMs": 1555044338649.8743,
+      "ctimeMs": 1555044338649.8743,
+      "birthtimeMs": 1555044338649.1384,
+      "atime": "2019-05-05T10:32:57.314Z",
+      "mtime": "2019-04-12T04:45:38.650Z",
+      "ctime": "2019-04-12T04:45:38.650Z",
+      "birthtime": "2019-04-12T04:45:38.649Z"
+    },
+    "283140df-5357-5521-ba81-eea223e46af2": {
+      "id": "283140df-5357-5521-ba81-eea223e46af2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "61ed8b054178d0e8d1285ad8f29f4045",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/javascript.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images/javascript.svg",
+      "relativePath": "javascript.svg",
+      "extension": "svg",
+      "size": 884,
+      "prettySize": "884 B",
+      "modifiedTime": "2019-04-12T04:45:38.650Z",
+      "accessTime": "2019-04-12T04:46:21.706Z",
+      "changeTime": "2019-04-12T04:45:38.650Z",
+      "birthTime": "2019-04-12T04:45:38.650Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images",
+      "base": "javascript.svg",
+      "ext": ".svg",
+      "name": "javascript",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404790,
+      "blocks": 8,
+      "atimeMs": 1555044381706.4858,
+      "mtimeMs": 1555044338649.7646,
+      "ctimeMs": 1555044338649.7646,
+      "birthtimeMs": 1555044338649.6697,
+      "atime": "2019-04-12T04:46:21.706Z",
+      "mtime": "2019-04-12T04:45:38.650Z",
+      "ctime": "2019-04-12T04:45:38.650Z",
+      "birthtime": "2019-04-12T04:45:38.650Z"
+    },
+    "b9f693af-3f19-505d-a596-a74e1d72aa78": {
+      "id": "b9f693af-3f19-505d-a596-a74e1d72aa78",
+      "children": [
+        "177a7238-ffff-5dbe-90a7-8139f954f173"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3c13c70fb0736f27d011b17a28e720ab",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 6368,
+      "prettySize": "6.37 kB",
+      "modifiedTime": "2019-04-12T04:45:38.650Z",
+      "accessTime": "2019-04-12T04:46:21.706Z",
+      "changeTime": "2019-04-12T04:45:38.650Z",
+      "birthTime": "2019-04-12T04:45:38.649Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404789,
+      "blocks": 16,
+      "atimeMs": 1555044381705.9968,
+      "mtimeMs": 1555044338649.5608,
+      "ctimeMs": 1555044338649.5608,
+      "birthtimeMs": 1555044338649.4194,
+      "atime": "2019-04-12T04:46:21.706Z",
+      "mtime": "2019-04-12T04:45:38.650Z",
+      "ctime": "2019-04-12T04:45:38.650Z",
+      "birthtime": "2019-04-12T04:45:38.649Z"
+    },
+    "177a7238-ffff-5dbe-90a7-8139f954f173": {
+      "id": "177a7238-ffff-5dbe-90a7-8139f954f173",
+      "children": [],
+      "parent": "b9f693af-3f19-505d-a596-a74e1d72aa78",
+      "internal": {
+        "contentDigest": "3c13c70fb0736f27d011b17a28e720ab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d81ae873-c2a0-5aa5-956b-cde90db030c3": {
+      "id": "d81ae873-c2a0-5aa5-956b-cde90db030c3",
+      "children": [
+        "d41edfd0-e7f6-523e-890c-38b918d13fc5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0cded3a3276425911d55a2552bf361bf",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/js.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images/js.png",
+      "relativePath": "js.png",
+      "extension": "png",
+      "size": 10268,
+      "prettySize": "10.3 kB",
+      "modifiedTime": "2019-04-12T04:45:38.650Z",
+      "accessTime": "2019-04-12T04:46:21.706Z",
+      "changeTime": "2019-04-12T04:45:38.650Z",
+      "birthTime": "2019-04-12T04:45:38.650Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/images",
+      "base": "js.png",
+      "ext": ".png",
+      "name": "js",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404791,
+      "blocks": 24,
+      "atimeMs": 1555044381706.0583,
+      "mtimeMs": 1555044338650.0264,
+      "ctimeMs": 1555044338650.0264,
+      "birthtimeMs": 1555044338649.8645,
+      "atime": "2019-04-12T04:46:21.706Z",
+      "mtime": "2019-04-12T04:45:38.650Z",
+      "ctime": "2019-04-12T04:45:38.650Z",
+      "birthtime": "2019-04-12T04:45:38.650Z"
+    },
+    "d41edfd0-e7f6-523e-890c-38b918d13fc5": {
+      "id": "d41edfd0-e7f6-523e-890c-38b918d13fc5",
+      "children": [],
+      "parent": "d81ae873-c2a0-5aa5-956b-cde90db030c3",
+      "internal": {
+        "contentDigest": "0cded3a3276425911d55a2552bf361bf",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4f7ed6ce-6386-5724-ba6b-fa606b4ba64f": {
+      "id": "4f7ed6ce-6386-5724-ba6b-fa606b4ba64f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "52dc5639b83d1b00935b8a8e6826868b",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-12T05:43:29.874Z",
+      "accessTime": "2019-05-05T10:32:57.343Z",
+      "changeTime": "2019-04-12T05:43:29.874Z",
+      "birthTime": "2019-04-12T04:45:38.651Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404796,
+      "blocks": 0,
+      "atimeMs": 1557052377342.7307,
+      "mtimeMs": 1555047809874.052,
+      "ctimeMs": 1555047809874.052,
+      "birthtimeMs": 1555044338650.8218,
+      "atime": "2019-05-05T10:32:57.343Z",
+      "mtime": "2019-04-12T05:43:29.874Z",
+      "ctime": "2019-04-12T05:43:29.874Z",
+      "birthtime": "2019-04-12T04:45:38.651Z"
+    },
+    "9a6edebc-53c1-5018-bbfb-4192f0d2400d": {
+      "id": "9a6edebc-53c1-5018-bbfb-4192f0d2400d",
+      "children": [
+        "d3bf119f-4c23-58ae-b29e-12e3d357c5c1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f9bece41600e2bc890a1796213257bd1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/জাভাস্ক্রিপ্টে-হাতেখড়ি.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/posts/জাভাস্ক্রিপ্টে-হাতেখড়ি.md",
+      "relativePath": "জাভাস্ক্রিপ্টে-হাতেখড়ি.md",
+      "extension": "md",
+      "size": 4088,
+      "prettySize": "4.09 kB",
+      "modifiedTime": "2019-04-12T05:45:13.161Z",
+      "accessTime": "2019-04-12T05:48:17.341Z",
+      "changeTime": "2019-04-12T05:45:13.161Z",
+      "birthTime": "2019-04-12T04:45:38.651Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/posts",
+      "base": "জাভাস্ক্রিপ্টে-হাতেখড়ি.md",
+      "ext": ".md",
+      "name": "জাভাস্ক্রিপ্টে-হাতেখড়ি",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404797,
+      "blocks": 8,
+      "atimeMs": 1555048097340.793,
+      "mtimeMs": 1555047913160.637,
+      "ctimeMs": 1555047913160.637,
+      "birthtimeMs": 1555044338650.9226,
+      "atime": "2019-04-12T05:48:17.341Z",
+      "mtime": "2019-04-12T05:45:13.161Z",
+      "ctime": "2019-04-12T05:45:13.161Z",
+      "birthtime": "2019-04-12T04:45:38.651Z"
+    },
+    "d3bf119f-4c23-58ae-b29e-12e3d357c5c1": {
+      "id": "d3bf119f-4c23-58ae-b29e-12e3d357c5c1",
+      "children": [],
+      "parent": "9a6edebc-53c1-5018-bbfb-4192f0d2400d",
+      "internal": {
+        "content": "\n## প্রারম্ভিকা\n\n#### জাভাস্ক্রিপ্ট কি?\n\nজাভাস্ক্রিপ্ট একটি লাইটওয়েট ইন্টারপ্রেটেড অথবা জাস্ট টাইম কম্পাইলড (JIT) প্রোগ্রমিং ল্যাঙ্গুয়েজে যেটাতে ফার্স্ট ক্লাস ফাংশন আছে ।\n\nফার্স্ট ক্লাস ফাংশন মানে হলো, যেখানে ফাংশন ভেরিয়েবল এর মতো করে ব্যবহার করা যায়। এটা নিয়ে আরো বিস্তারিত আমরা পরে শিখবো, এখন এতটুকু জানলেই চলবে।\n\nজাভাস্ক্রিপ্ট মূলত ওয়েব ব্রাউজারে চলে, তবে এখনকার দিনে শুধু ওয়েব ব্রাউজারে সীমাবদ্ধ নয়। NodeJS দিয়ে আমরা জাভাস্ক্রিপ্ট ওয়েব ব্রাউজারের বাহিরেও লিখতে পারি।\n\nজাভাস্ক্রিপ্ট প্রোটোটাইপ বেজ, মাল্টিপ্যারাডাইম, ডাইনামিক ল্যাঙ্গুয়েজ। এই শব্দ গুলা দেখে মাথা খারাপ করার কিছু নাই। আস্তে আস্তে আমরা সব শিখবো।\n\nএটি অবজেক্ট ওরিয়েন্টেড এবং ডিক্লারেটিভ বা ফাংশনাল দুই ধরণের স্টাইলে লিখা যায়।\n\nজাভাস্ক্রিপ্টের স্ট্যান্ডার্ড মেইনটেইন করে ECMA নামের একটি প্রতিষ্ঠান।\n\nএই পোস্টটি লেখার সময় ECMAScript এর ভার্সন হলো ২০১৮ বা ECMAScript ২০১৮। মডার্ন ওয়েব ব্রাউজারে (গুগল ক্রোম, ফায়ারফক্স) ECMAScript ৫.১ বা ECMAScript ২০১৬ সাপোর্ট করে।\n\nসন ১৯৯৫ তে, ব্রেন্ডএন্ড এইচ নামের ব্যাক্তি, তিনি তখন নেটস্কেপ নেভিগেটরে কাজ করতেন সেটি ছিল একটি ওয়েব ব্রাউজার। ওয়েব ব্রাউজারের জন্য মাত্র ১০ দিনে পুরো জাভাস্ক্রিপ্ট ল্যাংগুয়েজটি ডেভেলপ করেন। বুঝতেই পারছেন মাত্র ১০ দিনে পুরো একটা ল্যাংগুয়েজ! যার ফল আমরা ভোগ করছি , জাভাস্ক্ৰিপ্ট ল্যাঙ্গুয়েজে অনেক অপ্রত্যাশিত জিনিস পেয়েছি। আমি ইতিহাস নিয়ে এখানে খুব বেশি কথা বলবোনা।\n\nএই মোটামুটি জাভাস্ক্রিপ্টের ইতিহাস।\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a406d333c708c94141ef0614efe16f12",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "জাভাস্ক্রিপ্টে হাতেখড়ি",
+        "path": "/জাভাস্ক্রিপ্টে-হাতেখড়ি",
+        "date": "2019-04-06",
+        "coverImage": "../images/js.png",
+        "author": "ইবনে সিনা",
+        "excerpt": "জাভাস্ক্রিপ্ট একটি লাইটওয়েট ইন্টারপ্রেটেড অথবা জাস্ট টাইম কম্পাইলড (JIT) প্রোগ্রমিং ল্যাঙ্গুয়েজে যেটাতে ফার্স্ট ক্লাস ফাংশন ..",
+        "tags": [
+          "জাভাস্ক্রিপ্ট",
+          "জেএস"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## প্রারম্ভিকা\n\n#### জাভাস্ক্রিপ্ট কি?\n\nজাভাস্ক্রিপ্ট একটি লাইটওয়েট ইন্টারপ্রেটেড অথবা জাস্ট টাইম কম্পাইলড (JIT) প্রোগ্রমিং ল্যাঙ্গুয়েজে যেটাতে ফার্স্ট ক্লাস ফাংশন আছে ।\n\nফার্স্ট ক্লাস ফাংশন মানে হলো, যেখানে ফাংশন ভেরিয়েবল এর মতো করে ব্যবহার করা যায়। এটা নিয়ে আরো বিস্তারিত আমরা পরে শিখবো, এখন এতটুকু জানলেই চলবে।\n\nজাভাস্ক্রিপ্ট মূলত ওয়েব ব্রাউজারে চলে, তবে এখনকার দিনে শুধু ওয়েব ব্রাউজারে সীমাবদ্ধ নয়। NodeJS দিয়ে আমরা জাভাস্ক্রিপ্ট ওয়েব ব্রাউজারের বাহিরেও লিখতে পারি।\n\nজাভাস্ক্রিপ্ট প্রোটোটাইপ বেজ, মাল্টিপ্যারাডাইম, ডাইনামিক ল্যাঙ্গুয়েজ। এই শব্দ গুলা দেখে মাথা খারাপ করার কিছু নাই। আস্তে আস্তে আমরা সব শিখবো।\n\nএটি অবজেক্ট ওরিয়েন্টেড এবং ডিক্লারেটিভ বা ফাংশনাল দুই ধরণের স্টাইলে লিখা যায়।\n\nজাভাস্ক্রিপ্টের স্ট্যান্ডার্ড মেইনটেইন করে ECMA নামের একটি প্রতিষ্ঠান।\n\nএই পোস্টটি লেখার সময় ECMAScript এর ভার্সন হলো ২০১৮ বা ECMAScript ২০১৮। মডার্ন ওয়েব ব্রাউজারে (গুগল ক্রোম, ফায়ারফক্স) ECMAScript ৫.১ বা ECMAScript ২০১৬ সাপোর্ট করে।\n\nসন ১৯৯৫ তে, ব্রেন্ডএন্ড এইচ নামের ব্যাক্তি, তিনি তখন নেটস্কেপ নেভিগেটরে কাজ করতেন সেটি ছিল একটি ওয়েব ব্রাউজার। ওয়েব ব্রাউজারের জন্য মাত্র ১০ দিনে পুরো জাভাস্ক্রিপ্ট ল্যাংগুয়েজটি ডেভেলপ করেন। বুঝতেই পারছেন মাত্র ১০ দিনে পুরো একটা ল্যাংগুয়েজ! যার ফল আমরা ভোগ করছি , জাভাস্ক্ৰিপ্ট ল্যাঙ্গুয়েজে অনেক অপ্রত্যাশিত জিনিস পেয়েছি। আমি ইতিহাস নিয়ে এখানে খুব বেশি কথা বলবোনা।\n\nএই মোটামুটি জাভাস্ক্রিপ্টের ইতিহাস।\n",
+      "fileAbsolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/posts/জাভাস্ক্রিপ্টে-হাতেখড়ি.md"
+    },
+    "ae10c77b-cc1e-5fc0-8c64-d6d5022d317c": {
+      "id": "ae10c77b-cc1e-5fc0-8c64-d6d5022d317c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2f7ee5b0a140d0a4ac89e779be3230bc",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-04-12T05:31:51.677Z",
+      "accessTime": "2019-05-05T10:32:57.354Z",
+      "changeTime": "2019-04-12T05:31:51.677Z",
+      "birthTime": "2019-04-12T04:45:38.650Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404792,
+      "blocks": 0,
+      "atimeMs": 1557052377353.8828,
+      "mtimeMs": 1555047111677.0295,
+      "ctimeMs": 1555047111677.0295,
+      "birthtimeMs": 1555044338650.1443,
+      "atime": "2019-05-05T10:32:57.354Z",
+      "mtime": "2019-04-12T05:31:51.677Z",
+      "ctime": "2019-04-12T05:31:51.677Z",
+      "birthtime": "2019-04-12T04:45:38.650Z"
+    },
+    "2855712e-a996-53a9-9900-315b04e9e1fb": {
+      "id": "2855712e-a996-53a9-9900-315b04e9e1fb",
+      "children": [
+        "281e1878-f658-53a9-8a4a-fa1b99b40094"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1d4193ea2575e8590888215dbcfffe1e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/আমার-সম্পর্কে.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/আমার-সম্পর্কে.md",
+      "relativePath": "আমার-সম্পর্কে.md",
+      "extension": "md",
+      "size": 1134,
+      "prettySize": "1.13 kB",
+      "modifiedTime": "2019-04-12T05:32:50.399Z",
+      "accessTime": "2019-04-12T05:48:17.341Z",
+      "changeTime": "2019-04-12T05:32:50.399Z",
+      "birthTime": "2019-04-12T04:45:38.650Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages",
+      "base": "আমার-সম্পর্কে.md",
+      "ext": ".md",
+      "name": "আমার-সম্পর্কে",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404794,
+      "blocks": 8,
+      "atimeMs": 1555048097340.5898,
+      "mtimeMs": 1555047170399.1147,
+      "ctimeMs": 1555047170399.1147,
+      "birthtimeMs": 1555044338650.4412,
+      "atime": "2019-04-12T05:48:17.341Z",
+      "mtime": "2019-04-12T05:32:50.399Z",
+      "ctime": "2019-04-12T05:32:50.399Z",
+      "birthtime": "2019-04-12T04:45:38.650Z"
+    },
+    "ac029dad-1abe-5f9d-8ac5-73f4528b6409": {
+      "id": "ac029dad-1abe-5f9d-8ac5-73f4528b6409",
+      "children": [
+        "bb214f0c-342a-5d65-a194-aa931b362795"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c5864cc9bd342218aa64d80aa8f31702",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/যোগাযোগ.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/যোগাযোগ.md",
+      "relativePath": "যোগাযোগ.md",
+      "extension": "md",
+      "size": 349,
+      "prettySize": "349 B",
+      "modifiedTime": "2019-04-12T05:33:56.971Z",
+      "accessTime": "2019-04-12T05:48:17.341Z",
+      "changeTime": "2019-04-12T05:33:56.971Z",
+      "birthTime": "2019-04-12T04:45:38.651Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages",
+      "base": "যোগাযোগ.md",
+      "ext": ".md",
+      "name": "যোগাযোগ",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404795,
+      "blocks": 8,
+      "atimeMs": 1555048097340.646,
+      "mtimeMs": 1555047236970.7556,
+      "ctimeMs": 1555047236970.7556,
+      "birthtimeMs": 1555044338650.637,
+      "atime": "2019-04-12T05:48:17.341Z",
+      "mtime": "2019-04-12T05:33:56.971Z",
+      "ctime": "2019-04-12T05:33:56.971Z",
+      "birthtime": "2019-04-12T04:45:38.651Z"
+    },
+    "521cbb82-32ba-52e1-a24c-fda47788bf34": {
+      "id": "521cbb82-32ba-52e1-a24c-fda47788bf34",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dd70ab2f27f14ef3afbbb2450e1f0254",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-04-12T04:45:38.650Z",
+      "accessTime": "2019-04-12T04:46:21.716Z",
+      "changeTime": "2019-04-12T04:45:38.650Z",
+      "birthTime": "2019-04-12T04:45:38.650Z",
+      "root": "/",
+      "dir": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3404793,
+      "blocks": 8,
+      "atimeMs": 1555044381716.3655,
+      "mtimeMs": 1555044338650.324,
+      "ctimeMs": 1555044338650.324,
+      "birthtimeMs": 1555044338650.245,
+      "atime": "2019-04-12T04:46:21.716Z",
+      "mtime": "2019-04-12T04:45:38.650Z",
+      "ctime": "2019-04-12T04:45:38.650Z",
+      "birthtime": "2019-04-12T04:45:38.650Z"
+    },
+    "281e1878-f658-53a9-8a4a-fa1b99b40094": {
+      "id": "281e1878-f658-53a9-8a4a-fa1b99b40094",
+      "children": [],
+      "parent": "2855712e-a996-53a9-9900-315b04e9e1fb",
+      "internal": {
+        "content": "\nআমি ইবনে সিনা, জাভাস্ক্রিপ্ট নিয়ে কাজ করছি প্রায় তিন বছরেরও বেশি সময় ধরে। আমি একজন ফুলস্ট্যাক জাভাস্ক্রিপ্ট ডেভেলপার এবং ইন্সট্রাক্টর। ভালোবাসি জাভাস্ক্রিপ্ট নিয়ে কাজ করতে, মানুষকে শিখাতে।\n\nআমি যেসব টেকনোলজি নিয়ে কাজ করি :\n\n- Languages: HTML, CSS, JavaScript\n- CSS Frameworks: Tailwind CSS, Bulma, Twitter Bootstrap\n- CSS Pre-Processors: PostCSS, SASS\n- JavaScript Frameworks: React.js, Vue.js, Angular\n- Databases: MongoDB, PostgreSQL, MySQL\n- Text Editor/IDE: VIM, Visual Studio Code, Sublime Text, Web Storm\n- Automation Tools: Webpack, Parcel\n- More: Node.js, Redux, TypeScript, Serverless, PWA, Linux, AWS and beyond.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "9046430a8290f121e8ec4b98457f402b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "আমার সম্পর্কে",
+        "date": "2019-04-06",
+        "author": "Ebn Sina",
+        "path": "/আমার-সম্পর্কে"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nআমি ইবনে সিনা, জাভাস্ক্রিপ্ট নিয়ে কাজ করছি প্রায় তিন বছরেরও বেশি সময় ধরে। আমি একজন ফুলস্ট্যাক জাভাস্ক্রিপ্ট ডেভেলপার এবং ইন্সট্রাক্টর। ভালোবাসি জাভাস্ক্রিপ্ট নিয়ে কাজ করতে, মানুষকে শিখাতে।\n\nআমি যেসব টেকনোলজি নিয়ে কাজ করি :\n\n- Languages: HTML, CSS, JavaScript\n- CSS Frameworks: Tailwind CSS, Bulma, Twitter Bootstrap\n- CSS Pre-Processors: PostCSS, SASS\n- JavaScript Frameworks: React.js, Vue.js, Angular\n- Databases: MongoDB, PostgreSQL, MySQL\n- Text Editor/IDE: VIM, Visual Studio Code, Sublime Text, Web Storm\n- Automation Tools: Webpack, Parcel\n- More: Node.js, Redux, TypeScript, Serverless, PWA, Linux, AWS and beyond.\n",
+      "fileAbsolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/আমার-সম্পর্কে.md"
+    },
+    "bb214f0c-342a-5d65-a194-aa931b362795": {
+      "id": "bb214f0c-342a-5d65-a194-aa931b362795",
+      "children": [],
+      "parent": "ac029dad-1abe-5f9d-8ac5-73f4528b6409",
+      "internal": {
+        "content": "\n#### আমরা সাথে যোগাযোগ করতে পারেন :\n\n[GitHub](http://github.com/ebnsina)\n[Facebook](http://facebook.com/ebnsina.dev)\n[Twitter](http://twitter.com/ebns1na)\n[Email](mailto:ebnsina.me@gmail.com)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "7c0cb2124ce53d98e0ac97446da3a67d",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "যোগাযোগ",
+        "date": "2019-04-06",
+        "author": "Ebn Sina",
+        "path": "/যোগাযোগ"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n#### আমরা সাথে যোগাযোগ করতে পারেন :\n\n[GitHub](http://github.com/ebnsina)\n[Facebook](http://facebook.com/ebnsina.dev)\n[Twitter](http://twitter.com/ebns1na)\n[Email](mailto:ebnsina.me@gmail.com)\n",
+      "fileAbsolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/যোগাযোগ.md"
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/index.js",
+      "componentChunkName": "component---src-templates-index-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "48ed88bc7e7c80528363b5f8d2753f36",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /আমার-সম্পর্কে": {
+      "jsonName": "আমার-সম্পর্কে-6cf",
+      "internalComponentName": "Componentআমারসম্পর্কে",
+      "path": "/আমার-সম্পর্কে",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "pages",
+        "next": {
+          "frontmatter": {
+            "path": "/যোগাযোগ",
+            "title": "যোগাযোগ",
+            "tags": null
+          },
+          "fileAbsolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/যোগাযোগ.md"
+        },
+        "previous": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "id": "SitePage /আমার-সম্পর্কে",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5994b95415c893965a6f45a366b3912e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /যোগাযোগ": {
+      "jsonName": "যোগাযোগ-1f6",
+      "internalComponentName": "Componentযোগাযোগ",
+      "path": "/যোগাযোগ",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "pages",
+        "next": null,
+        "previous": {
+          "frontmatter": {
+            "path": "/আমার-সম্পর্কে",
+            "title": "আমার সম্পর্কে",
+            "tags": null
+          },
+          "fileAbsolutePath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/আমার-সম্পর্কে.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "id": "SitePage /যোগাযোগ",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "911b8fd4ad0ff5b27ead0ffcf519e6d4",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /জাভাস্ক্রিপ্টে-হাতেখড়ি": {
+      "jsonName": "জাভাস্ক্রিপ্টে-হাতেখড়ি-b91",
+      "internalComponentName": "Componentজাভাস্ক্রিপ্টেহাতেখড়ি",
+      "path": "/জাভাস্ক্রিপ্টে-হাতেখড়ি",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": null,
+        "previous": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "id": "SitePage /জাভাস্ক্রিপ্টে-হাতেখড়ি",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "036946b095bb6d52f4034cc8d144fa98",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/জাভাস্ক্রিপ্ট": {
+      "jsonName": "tag-জাভাস্ক্রিপ্ট-14b",
+      "internalComponentName": "ComponentTagজাভাস্ক্রিপ্ট",
+      "path": "/tag/জাভাস্ক্রিপ্ট",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "জাভাস্ক্রিপ্ট",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/tags.js",
+      "id": "SitePage /tag/জাভাস্ক্রিপ্ট",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "04400ca45806e96ac83f11cae1fe6298",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/জেএস": {
+      "jsonName": "tag-জেএস-c78",
+      "internalComponentName": "ComponentTagজেএস",
+      "path": "/tag/জেএস",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "জেএস",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/tags.js",
+      "id": "SitePage /tag/জেএস",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6ac4c2e8230c7bb09fc05d5c31e0ca64",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d3777a5c-38c8-5a0c-8337-0f34bd723684",
+      "pluginCreatorId": "d3777a5c-38c8-5a0c-8337-0f34bd723684",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5fdf62a90ba850a41e74769f9bf4340b",
+        "description": "d3777a5c-38c8-5a0c-8337-0f34bd723684",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "715dd031376dad82d95e1413dd8e9dfc",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "3f91ebf4f8e52ca4a72f286d5d37f837"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "d41edfd0-e7f6-523e-890c-38b918d13fc5": [
+        "/",
+        "/জাভাস্ক্রিপ্টে-হাতেখড়ি",
+        "/tag/জাভাস্ক্রিপ্ট",
+        "/tag/জেএস"
+      ],
+      "d81ae873-c2a0-5aa5-956b-cde90db030c3": [
+        "/",
+        "/জাভাস্ক্রিপ্টে-হাতেখড়ি",
+        "/tag/জাভাস্ক্রিপ্ট",
+        "/tag/জেএস"
+      ],
+      "281e1878-f658-53a9-8a4a-fa1b99b40094": [
+        "/আমার-সম্পর্কে"
+      ],
+      "bb214f0c-342a-5d65-a194-aa931b362795": [
+        "/যোগাযোগ"
+      ],
+      "d3bf119f-4c23-58ae-b29e-12e3d357c5c1": [
+        "/জাভাস্ক্রিপ্টে-হাতেখড়ি"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/",
+        "/tag/জাভাস্ক্রিপ্ট",
+        "/tag/জেএস"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-js": 2892404432,
+    "sq--src-components-seo-js": 1582510487,
+    "sq--src-components-image-js": 492526033,
+    "introduction-to-javascript-541": "736/path---introduction-to-javascript-541-521-yOLhvs54Op2wg0OxLALJ8SX1A8",
+    "about-771": "963/path---about-771-2fe-ZDBudogs5LRPleovHJMfBehCOU",
+    "contact-906": "170/path---contact-906-086-2KLWNOWAV6TthaEd6qqiv8EKSU",
+    "index": "255/path---index-6a9-616YY5PyRIU8F2Y5kUMb6VSRUZI",
+    "tag-programming-92f": "306/path---tag-programming-92-f-4f3-js04sKUWQUuYOnLOkfJ8yDAEezg",
+    "tag-js-f98": "589/path---tag-js-f-98-338-6uS8iBl61LlR0WxRn6Xy6X2dB8",
+    "why-language-matter-d2a": "555/path---why-language-matter-d-2-a-b23-2Ru3FDIECWAdgVHKyX51aSSFif8",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "যোগাযোগ-1f6": "389/path---যোগাযোগ-1-f-6-afd-TdLfXDSgsTiklVGhgLpsqfru8x8",
+    "আমার-সম্পর্কে-6cf": "663/path---আমার-সম্পর্কে-6-cf-afe-qdc4K29uZPGVYO6xWP3HUr16Dk",
+    "জাভাস্ক্রিপ্টে-হাতেখড়ি-b91": "723/path---জাভাস্ক্রিপ্টে-হাতেখড়ি-b-91-075-0Wau05VQ3scK0ZVC1YMxcYDWkg",
+    "tag-জাভাস্ক্রিপ্ট-14b": "304/path---tag-জাভাস্ক্রিপ্ট-14-b-e6c-eVwgdCjVvCzfLUnA9nIHmA4nSM",
+    "tag-জেএস-c78": "268/path---tag-জেএস-c-78-47e-HYqfOOzUOeQdYgMOzEGGIdrdvF8"
+  },
+  "components": {
+    "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/index.js": {
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/index.js",
+      "query": "query usersEbnsinaDocumentsTestsJsEbnsinaMeSrcTemplatesIndexJs157487334(\n  $limit: Int!\n  $skip: Int!\n) {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"//posts//\"}}, sort: {fields: [frontmatter___date], order: DESC}, limit: $limit, skip: $skip) {\n    edges {\n      node {\n        id\n        excerpt\n        frontmatter {\n          title\n          date(formatString: \"DD MMMM YYYY\")\n          path\n          author\n          excerpt\n          tags\n          coverImage {\n            childImageSharp {\n              fluid(maxWidth: 800) {\n                ...GatsbyImageSharpFluid\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js": {
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/page.js",
+      "query": "query usersEbnsinaDocumentsTestsJsEbnsinaMeSrcTemplatesPageJs2649831006(\n  $path: String\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    frontmatter {\n      title\n      date(formatString: \"DD MMMM YYYY\")\n      path\n      author\n      excerpt\n      tags\n      coverImage {\n        childImageSharp {\n          fluid(maxWidth: 800) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n    id\n    html\n    excerpt\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "pages": [
+        "/আমার-সম্পর্কে",
+        "/যোগাযোগ",
+        "/জাভাস্ক্রিপ্টে-হাতেখড়ি"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/tags.js": {
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/templates/tags.js",
+      "query": "query usersEbnsinaDocumentsTestsJsEbnsinaMeSrcTemplatesTagsJs808086567(\n  $limit: Int!\n  $skip: Int!\n  $tag: String!\n) {\n  allMarkdownRemark(filter: {frontmatter: {tags: {in: [$tag]}}}, sort: {fields: [frontmatter___date], order: DESC}, limit: $limit, skip: $skip) {\n    edges {\n      node {\n        id\n        excerpt\n        frontmatter {\n          title\n          date(formatString: \"DD MMMM YYYY\")\n          path\n          author\n          excerpt\n          tags\n          coverImage {\n            childImageSharp {\n              fluid(maxWidth: 800) {\n                ...GatsbyImageSharpFluid\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "pages": [
+        "/tag/জাভাস্ক্রিপ্ট",
+        "/tag/জেএস"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js": {
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/pages/404.js",
+      "query": "",
+      "pages": [
+        "/404/",
+        "/404.html"
+      ],
+      "isInBootstrap": true
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      logo {\n        src\n        alt\n      }\n      logoText\n      defaultTheme\n      copyrights\n      mainMenu {\n        title\n        path\n      }\n      showMenuItems\n      menuMoreText\n    }\n  }\n}\n",
+      "hash": 2892404432
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1582510487
+    },
+    "sq--src-components-image-js": {
+      "name": "usersEbnsinaDocumentsTestsJsEbnsinaMeSrcComponentsImageJs492526033",
+      "componentPath": "/Users/ebnsina/Documents/tests/js.ebnsina.me/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersEbnsinaDocumentsTestsJsEbnsinaMeSrcComponentsImageJs492526033 {\n  placeholderImage: file(relativePath: {eq: \"images\"}) {\n    childImageSharp {\n      fluid(maxWidth: 800) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 492526033
+    }
+  }
+}

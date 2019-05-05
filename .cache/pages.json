@@ -1,0 +1,42 @@
+[
+    {
+        "componentChunkName": "component---src-templates-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "jsonName": "tag-জাভাস্ক্রিপ্ট-14b",
+        "path": "/tag/জাভাস্ক্রিপ্ট"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "jsonName": "tag-জেএস-c78",
+        "path": "/tag/জেএস"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "আমার-সম্পর্কে-6cf",
+        "path": "/আমার-সম্পর্কে"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "জাভাস্ক্রিপ্টে-হাতেখড়ি-b91",
+        "path": "/জাভাস্ক্রিপ্টে-হাতেখড়ি"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "যোগাযোগ-1f6",
+        "path": "/যোগাযোগ"
+    }
+]
